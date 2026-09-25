@@ -1,0 +1,27 @@
+Q1. An e-commerce application stores product quantity. Which data type would you choose? What if quantity can be
+2.5?
+--> Correct Data type will be INT, no 2.5 cannot be a quantity.
+
+Q2. A banking system needs to store a very large whole number. What would you check before choosing int or long?
+--> long
+
+Q3. A tester expected 2.5 from 10/4 but got 2.0. Explain the cause and give two fixes.
+--> the values are taken as INT i.e tester got 2.0 as output.
+Correct Fixes will be -
+-> 10.0/4
+-> assign data type as double or float
+
+Q4. Why can float discount = 12.5; fail compilation? Fix it.
+--> float discount = 12.5f
+
+Q5. Explain = versus == using a login example.
+-> = is used to assign values to a variable whereas == is used to compare two values.
+
+Q6. For login validation, when would you use && instead of ||?
+--> &&
+
+Q7. A counter must use its old value and then increment. Which is appropriate: x++ or ++x? Demonstrate.
+--> x++ is appropriate as it will do x + 1, but ++x will do 1 + x which will increment first.
+
+Q8. The program compiles but CMD cannot find the main class. Name three checks.
+-->
